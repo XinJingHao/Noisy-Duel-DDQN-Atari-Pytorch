@@ -1,12 +1,12 @@
 # DQN/DDQN-Atari-Pytorch
 This is a **clean and robust Pytorch implementation of DQN and Double DQN and their applications on Atari**. Here is the training curve:  
 
-Enduro| Pong
+Pong| Enduro
 :-----------------------:|:-----------------------:|
 <img src="https://github.com/XinJingHao/DQN-DDQN-Atari-Pytorch/raw/main/IMGs/Pong.png" width="320" height="200">| <img src="https://github.com/XinJingHao/DQN-DDQN-Atari-Pytorch/raw/main/IMGs/Enduro.png" width="320" height="200">
 
 A quick render here:
-Enduro| Pong
+Pong| Enduro
 :-----------------------:|:-----------------------:|
 <img src="https://github.com/XinJingHao/DQN-DDQN-Atari-Pytorch/raw/main/IMGs/Pong.gif" width="320" height="480">| <img src="https://github.com/XinJingHao/DQN-DDQN-Atari-Pytorch/raw/main/IMGs/Enduro.gif" width="320" height="480">
 
@@ -21,7 +21,7 @@ tensorboard==2.9.0
 gym==0.19.0  
 atari_py==0.2.6  
 
-P.S. A instruction of how to install Atari can be found here: https://zhuanlan.zhihu.com/p/523895071
+P.S. A instruction on how to install Atari can be found here: https://zhuanlan.zhihu.com/p/523895071
 
 ## How to use my code
 ### Train from scratch
