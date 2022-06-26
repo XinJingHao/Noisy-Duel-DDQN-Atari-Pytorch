@@ -21,7 +21,7 @@ tensorboard==2.9.0
 gym==0.19.0  
 atari_py==0.2.6  
 
-P.S. A instruction on how to install Atari can be found here: https://zhuanlan.zhihu.com/p/523895071
+P.S. A instruction on how to install Atari can be found [here](https://zhuanlan.zhihu.com/p/523895071)
 
 ## How to use my code
 ### Train from scratch
