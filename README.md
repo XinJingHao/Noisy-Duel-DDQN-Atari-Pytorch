@@ -1,4 +1,4 @@
-# DQN/DDQN-Pytorch
+# DQN/DDQN-Atari-Pytorch
 This is a **clean and robust Pytorch implementation of DQN and Double DQN and their applications on Atari**. Here is the training curve:  
 
 Enduro| Pong
