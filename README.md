@@ -15,24 +15,36 @@ All the experiments are trained with same hyperparameters. **Other RL algorithms
 
 
 ## Dependencies
-numpy==1.21.6  
-pytorch==1.11.0  
-tensorboard==2.9.0  
-gym==0.19.0  
-atari_py==0.2.6  
+```bash
+numpy == 1.21.6  
+pytorch == 1.11.0  
+tensorboard == 2.9.0  
+gym == 0.19.0  
+atari_py == 0.2.6  
+```
 
 P.S. A instruction on how to install Atari can be found [here](https://zhuanlan.zhihu.com/p/523895071)
 
 ## How to use my code
 ### Train from scratch
-run **'python main.py'**, where the default enviroment is PongNoFrameskip-v4.  
+```bash
+python main.py
+```
+where the default enviroment is PongNoFrameskip-v4.  
 ### Play with trained model
-run **'python main.py --write False --render True --Loadmodel True --ModelIdex 900'**  
+```bash
+python main.py --write False --render True --Loadmodel True --ModelIdex 900
+```
 ### Change Enviroment
-If you want to train on different enviroments, just run **'python main.py --EnvIdex 0'**.  
-The --EnvIdex can be set to be 0 and 1, where   
+If you want to train on different enviroments, just run 
+```bash
+python main.py --EnvIdex 0
+```
+The --EnvIdex can be set to be 0 and 1, where 
+```bash
 '--EnvIdex 0' for 'EnduroNoFrameskip-v4'  
-'--EnvIdex 1' for 'PongNoFrameskip-v4'   
+'--EnvIdex 1' for 'PongNoFrameskip-v4' 
+```
 ### Visualize the training curve
 You can use the tensorboard to visualize the training curve. History training curve is saved at '\runs'
 ### Hyperparameter Setting
