@@ -1,9 +1,7 @@
-import time
 import numpy as np
 import torch
 import gym
-from DQN import DQN_Agent,device,ReplayBuffer_torch
-from torch.utils.tensorboard import SummaryWriter
+from DQN import DQN_Agent,ReplayBuffer_torch
 import os, shutil
 from datetime import datetime
 import argparse
@@ -15,7 +13,7 @@ EnvName = ['EnduroNoFrameskip-v4', 'PongNoFrameskip-v4']
 '''Hyperparameter Setting'''
 parser = argparse.ArgumentParser()
 parser.add_argument('--EnvIdex', type=int, default=1, help='Index of the Env')
-parser.add_argument('--write', type=str2bool, default=True, help='Use SummaryWriter to record the training')
+parser.add_argument('--write', type=str2bool, default=False, help='Use SummaryWriter to record the training')
 parser.add_argument('--render', type=str2bool, default=False, help='Render or Not')
 parser.add_argument('--Loadmodel', type=str2bool, default=False, help='Load pretrained model or Not')
 parser.add_argument('--ModelIdex', type=int, default=900, help='which model to load')
@@ -61,6 +59,7 @@ def main():
     print('Algorithm:',algo_name,'  Env:',EnvName[opt.EnvIdex],'  action_dim:',opt.action_dim,'  Random Seed:',opt.seed, '\n')
 
     if opt.write:
+        from torch.utils.tensorboard import SummaryWriter
         timenow = str(datetime.now())[0:-7]
         timenow = ' ' + timenow[0:13] + '_' + timenow[14:16] + '_' + timenow[-2::]
         writepath = 'runs/S{}_{}_{}'.format(opt.seed,algo_name,EnvName[opt.EnvIdex]) + timenow
