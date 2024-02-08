@@ -3,8 +3,8 @@ This is a **clean and robust Pytorch implementation of Noisy-Duel-DDQN on Atari*
 
 Pong| Enduro
 :-----------------------:|:-----------------------:|
-<img src="https://github.com/XinJingHao/DQN-DDQN-Atari-Pytorch/raw/main/IMGs/Pong.gif" width="320" height="480">| <img src="https://github.com/XinJingHao/DQN-DDQN-Atari-Pytorch/raw/main/IMGs/Enduro.gif" width="320" height="480">
-<img src="https://github.com/XinJingHao/DQN-DDQN-Atari-Pytorch/raw/main/IMGs/Pong.png" width="320" height="200">| <img src="https://github.com/XinJingHao/DQN-DDQN-Atari-Pytorch/raw/main/IMGs/Enduro.png" width="320" height="200">
+<img src="https://github.com/XinJingHao/Noisy-Duel-DDQN-Atari-Pytorch/blob/main/IMGs/Pong.gif" width="320" height="480">| <img src="https://github.com/XinJingHao/Noisy-Duel-DDQN-Atari-Pytorch/blob/main/IMGs/Enduro.gif" width="320" height="480">
+<img src="https://github.com/XinJingHao/Noisy-Duel-DDQN-Atari-Pytorch/blob/main/IMGs/Pong.png" width="320" height="200">| <img src="https://github.com/XinJingHao/Noisy-Duel-DDQN-Atari-Pytorch/blob/main/IMGs/Enduro.png" width="320" height="200">
 
 All the experiments are trained with same hyperparameters. **Other RL algorithms by Pytorch can be found [here](https://github.com/XinJingHao/RL-Algorithms-by-Pytorch).**
 
